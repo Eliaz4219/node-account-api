@@ -1,0 +1,28 @@
+{
+  "name": "node-routes",
+  "version": "1.0.0",
+  "description": "Account API for node-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trenchcoder/node-account-api.git"
+  },
+  "author": "Harold Swets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trenchcoder/node-account-api/issues"
+  },
+  "homepage": "https://github.com/trenchcoder/node-account-api#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "node-server-mongodb": "file:///home/harold/dev/github/node-server-mongodb"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "sinon": "^1.17.6",
+    "supertest": "^2.0.1"
+  }
+}
