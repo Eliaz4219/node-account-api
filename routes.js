@@ -5,7 +5,7 @@ const User = require('node-server-mongodb').schemas.user;
 router.post('/create', (req, res) => {
   User.create(req.body)
     .then(result => {
-      res.status(200).send();
+      res.status(200).send('Success');
     })
     .catch(err => {
       if (err.code == 11000) {
